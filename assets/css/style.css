@@ -56,6 +56,13 @@ header {
 
 .card-footer {
   text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.card-footer input{
+  padding: 0;
+  margin: 0;
 }
 
 .card-footer::before {
@@ -68,7 +75,7 @@ header {
 
 .card-footer::after {
   content: " ";
-  display: block;
+  display: inline;
   clear: both;
 }
 

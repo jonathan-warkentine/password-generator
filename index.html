@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -25,10 +25,39 @@
           ></textarea>
         </div>
         <div class="card-footer">
+          <p id="pw-length">Password Length: </p>
+          <input id="pw-length-range" type="range" min="8" max="128" step="1" value="12">
+          <br>
+
+          <div>
+            <input type="checkbox" id="include-symbols" name="include-symbols" checked>
+            <label for="include-symbols">Include Symbols?</label>
+          </div>
+          <br>
+
+          <div>
+            <input type="checkbox" id="include-lowercase" name="include-lowercase" checked>
+            <label for="include-lowercase">Include Lowercase?</label>
+          </div>
+          <br>
+
+          <div>
+            <input type="checkbox" id="include-uppercase" name="include-uppercase" checked>
+            <label for="include-uppercase">Include Uppercase?</label>
+          </div>
+          <br>
+
+          <div>
+            <input type="checkbox" id="include-numbers" name="include-numbers" checked>
+            <label for="include-numbers">Include Numbers?</label>
+          </div>
+          <br>
+
+
           <button id="generate" class="btn">Generate Password</button>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
