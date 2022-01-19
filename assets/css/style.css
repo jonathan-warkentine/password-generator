@@ -55,7 +55,7 @@ header {
 }
 
 .card-footer {
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-flow: column wrap;
 }
