@@ -35,7 +35,6 @@ function writePassword() {
 
   //encourage user to click password to copy
   document.querySelector("#GenPass").textContent = "Click to copy!";
-  document.querySelector("#GenPass").setAttribute("style", "text-align: center;");
 }
 
     //function generatePassword generates a random password based on the user-inputed
@@ -103,5 +102,4 @@ function copyPassword() {
 
   //notify user
   document.querySelector("#GenPass").textContent = "Copied!";
-  document.querySelector("#GenPass").setAttribute("style", "text-align: center;");
 }

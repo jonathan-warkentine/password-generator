@@ -20,7 +20,9 @@ If the user attempts to copy the password by clicking *before* a password has be
 If the user attempts to generate a password *without* uppercase, lowercase, symbols, or numbers, an error alert notifies the user that at least one option must be selected.
 
 ## Features
-Most of the password generating apps I've seen use window prompts, confirmations, and alerts, which I find incredibly tacky.
+Most of the password generating apps I've seen use window prompts, confirmations, and alerts, which seem painful and tedious to have to use. Additionally, manually entering the digits for the length of password that you want, or else clicking up and down through the HTML type "number" input, seems a lot less smooth than clicking once on a slider and dragging it where you'd like to go.
+
+The app is also responsive, adapting for viewing on mobile devices.
 
 ## Tests
 If the user attempts to copy the password by clicking *before* a password has been generated, the copy-by-clicking mechanism is short circuited and nothing happens.
