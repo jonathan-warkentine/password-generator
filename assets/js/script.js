@@ -25,6 +25,7 @@ pwLengthRangeEl.addEventListener("mousemove", pwLengthModified);
 //add event listener to copy password text if the containing box is clicked
 document.querySelector("#password").addEventListener("click", copyPassword);
 
+document.addEventListener("click", writePassword);
 
 // Write password to the #password input
 function writePassword() {
