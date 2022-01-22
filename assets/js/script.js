@@ -115,7 +115,7 @@ function pwLengthModified() {
 function copyPassword() {
 
   //avoids copying a blank or user-message occupied password field
-  if (document.querySelector("#password").value=="" || document.querySelector("#password").value.contains(" ")) {
+  if (document.querySelector("#password").value=="" || document.querySelector("#password").value.includes(" ")) {
     return;
   }
   
